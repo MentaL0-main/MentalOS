@@ -19,7 +19,7 @@ chmod +x build.sh
 | Ассемблер      | NASM (Netwide Assembler)                       |
 | Таргет         | BIOS boot (Legacy MBR)                         |
 | Размер         | 512 байт bootloader (stage1)                   |
-| Язык           | 100% NASM Assembly                             |
+| Язык           | C/C++/NASM Assembly                            |
 | Тестирование   | QEMU x86_64 emulator                           |
 | Билд система   | Bash + NASM                                    |
 | Kernel         | Monolithic (planned)                           |
