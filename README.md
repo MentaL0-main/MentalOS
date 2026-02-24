@@ -13,21 +13,21 @@ chmod +x build.sh
 
 ## Technical Specs
 
-| Характеристика | Описание                                       |
-| -------------- | ---------------------------------------------- |
-| Архитектура    | x86 (16-bit Real Mode) → x86_64 Protected Mode |
-| Ассемблер      | NASM (Netwide Assembler)                       |
-| Таргет         | BIOS boot (Legacy MBR)                         |
-| Размер         | 512 байт bootloader (stage1)                   |
-| Язык           | C/C++/NASM Assembly                            |
-| Тестирование   | QEMU x86_64 emulator                           |
-| Билд система   | Bash + NASM                                    |
-| Kernel         | Monolithic (planned)                           |
-| Memory         | Identity mapped (0x7C00+)                      |
-| Драйверы       | BIOS interrupts (0x10 video, 0x16 keyboard)    |
+| Feature | Description |
+|---------|-------------|
+| Architecture | x86 (16-bit Real Mode) → x86_64 Protected Mode |
+| Assembler | NASM (Netwide Assembler) |
+| Target | BIOS boot (Legacy MBR) |
+| Size | 512 bytes bootloader (stage1) |
+| Languages | C/C++/NASM Assembly |
+| Testing | QEMU x86_64 emulator |
+| Build system | Bash + NASM |
+| Kernel | Monolithic (planned) |
+| Memory | Identity mapped (0x7C00+) |
+| Drivers | BIOS interrupts (0x10 video, 0x16 keyboard) |
 
 ## Authors
 - Miraly Ruziev (mental0-main)
 
 ## License
-License - MIT, see more in LICENSE
+This project licensed under the **MIT License**.
