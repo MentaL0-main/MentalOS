@@ -1,1 +1,2 @@
-build/
+boot.bin
+kernel.o
